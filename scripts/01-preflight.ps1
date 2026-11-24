@@ -1,5 +1,6 @@
 ﻿[CmdletBinding()]
 param()
+Write-Warning 'Retired Python server deployment checklist. For a new Windows WeChat installation, follow https://github.com/AnthonyZZH/xiaoqian-weixin/blob/main/skills/xiaoqian-deploy/SKILL.md'
 $ErrorActionPreference='Stop'
 # Read-only checks; intentionally does not inspect machine environment variables.
 $os=Get-CimInstance Win32_OperatingSystem

@@ -1,6 +1,7 @@
 # Fetch the server edition of xiaoqian-wechat (DeepSeek API, owner relay, headless-server fixes).
 param([string]$Repo = 'https://github.com/AnthonyZZH/xiaoqian-wechat.git', [string]$Branch = 'server')
 $ErrorActionPreference = 'Stop'
+Write-Warning 'This installer fetches the retired Python server edition. Current Windows WeChat deployment guide: https://github.com/AnthonyZZH/xiaoqian-weixin/blob/main/skills/xiaoqian-deploy/SKILL.md'
 $dst = 'C:\xiaoqian\app\wechat'
 $data = 'C:\xiaoqian\data\wechat'
 if (@(Get-ChildItem -Force -LiteralPath $dst -ErrorAction SilentlyContinue).Count -ne 0) { throw 'wechat_directory_not_empty' }

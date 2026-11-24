@@ -1,3 +1,5 @@
+> **旧服务器部署方案已停用。** 新建或迁移 Windows 微信部署，请从[小千微信主库](https://github.com/AnthonyZZH/xiaoqian-weixin)的[当前部署指南](https://github.com/AnthonyZZH/xiaoqian-weixin/blob/main/skills/xiaoqian-deploy/SKILL.md)开始。下面记录的是旧 Python 微信服务和 QQ／NapCat 的部署过程。原有安装可查阅[旧版部署手册](LEGACY-DEPLOYMENT.md)。
+
 # xiaoqian-server-deploy · 小千服务器部署
 
 把 AI 群友「小千」部署到一台**独立的 Windows 云服务器**上，让她 24 小时在微信和 QQ 里聊天：私聊、群聊、主动接话、记住每个人、发表情包、看图、替主人去别的群说话并 @ 人。
